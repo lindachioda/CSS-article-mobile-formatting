@@ -1,0 +1,197 @@
+
+body {
+    width: 480px;
+    margin: 0 480px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(./img/back.jpeg);
+    background-position: 100%;
+}
+
+header {
+  width: 350px;
+  height: 280px;
+  padding: 20px;
+  margin-left: 15px;
+  text-align: center;
+  /* Sfumatura interna (background gradient) */
+  background: linear-gradient(135deg, #1f5606, #35a80f);
+  /* Ombra esterna (shadow con sfumatura) */
+  box-shadow: 14px 18px 8px rgba(0, 0, 0, 0.3);
+  /* Colore del testo */
+  color: white;
+}
+
+main {
+    width: 350px;
+    height: 280px;
+    padding: 20px 30px 1820px 5px;
+    margin: 20px 20px auto 20px;
+    background-color: white;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    width: 350px;
+    height: 150px;
+    padding: 20px;
+    margin: 15px 20px 20px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #0c3f12, #0a661c);
+    box-shadow: 14px 18px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+  /* Mario Rossi e data */
+h4 {
+   padding: 10px;
+   color: rgb(150, 146, 146);  
+   font-size: 0.9em; 
+}
+
+.home {
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
+
+.link, .link:visited, .link:hover, .link:active {
+    color: white;
+}
+
+.logo {
+    max-width: 200px;
+    text-align: center;
+}
+
+.h2 {
+    font-size: 2em;
+    text-align: left;
+    padding: 10px;
+}
+
+.particomuni {
+    font-weight: 700;
+}
+
+code {
+    background-color: #d3d3d3b4; /* grigio chiaro */
+    padding: 2px 6px;
+    border-radius: 4px;
+    border: 1px solid rgb(45, 44, 44);
+    font-family: monospace; /* stile tipo codice */
+    color: #1d1d1d;
+}
+
+p {
+   padding: 10px 20px 10px 15px;
+   line-height: 1.5;
+}
+
+ul, ol{
+    padding: 15px;
+    line-height: 1.5;
+    margin: auto 30px;
+}
+
+caption {
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+table {
+    margin: 20px 20px 20px 30px;
+    padding: 20px;
+    border-collapse: collapse;
+    border-spacing: 0; 
+}
+
+thead, tbody {
+  width: 80px;              /* larghezza della tabella */
+  margin: 20px;       /* auto = centrata orizzontalmente */
+  border-collapse: collapse; /* unisce i bordi */
+  text-align: center;      /* allinea il testo dentro le celle */
+  border: 1px solid grey;
+}
+
+td, th {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Colonne dispari bianche */
+td:nth-child(odd) :not(tr1) {
+  background-color: white;
+  border: 1px solid grey;
+}
+
+/* Colonne pari grigie */
+tbody td:nth-child(even) :not(tr1) {
+  background-color: #cbcaca;
+  border: 1px solid rgb(125, 123, 123);
+}
+
+thead .tr1 {
+    background-color: rgb(26, 133, 33);
+    color: white;
+}
+
+iframe {
+    border-radius: 15px;
+    margin-left: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+form {
+    background-color: #bdbdbd45; /* grigio chiaro */
+    padding: 20px;
+    margin: 20px 5px 20px 25px;
+}
+
+legend {
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+input {
+    border-bottom: 1px dashed grey;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+button {
+    background-color: rgb(10, 148, 61);
+    color:white;
+    border-radius: 0px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.correlati {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 15px;
+}
+
+div {
+    background-color: rgb(233, 233, 233);
+    border: 1.2px solid rgb(180, 180, 180);
+    margin: 15px;
+    padding-bottom:20px;
+}
+
+.datacorrelati {
+    text-align: right;
+    padding: 15px;
+    padding-bottom: 2px;
+    font-size: 0.8em;
+    color: rgb(73, 73, 73);
+}
+
+section a {
+    color:#0a661c!important;
+}

@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 
 body {
     width: 100%;
@@ -13,10 +16,10 @@ body {
 }
 
 header {
-  width: 350px;
-  height: 280px;
+  min-height: 280px;
   padding: 20px;
-  margin-left: 15px;
+  margin: 0;
+  width: 100%;
   text-align: center;
   /* Sfumatura interna (background gradient) */
   background: linear-gradient(135deg, #1f5606, #35a80f);
@@ -27,19 +30,21 @@ header {
 }
 
 main {
-    width: 350px;
-    height: 280px;
-    padding: 20px 30px 1820px 5px;
-    margin: 20px 20px auto 20px;
+    min-height: 280px;
+    height: auto;
+    width: 100%;
+    padding: 20px 5px;
+    margin: 20px auto;
     background-color: white;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3);
 }
 
 footer {
-    width: 350px;
-    height: 150px;
+    width: 100%;
+    min-height: 150px;
+    height: auto;
     padding: 20px;
-    margin: 15px 20px 20px 20px;
+    margin: 0;
     text-align: center;
     background: linear-gradient(135deg, #0c3f12, #0a661c);
     box-shadow: 14px 18px 8px rgba(0, 0, 0, 0.3);
